@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="heading">
+        <h1>Welcome To Do App</h1>
+      </div>
+
+      <div class="input">
+        <input type="text" id="task-name" placeholder="Enter your task" />
+        <input type="date" id="task-date" />
+        <button id="add-btn">Add</button>
+      </div>
+
+      <div class="todo-container">
+        <p class="todo-title">To Do Lists</p>
+        <div class="task-list">
+          <!-- Task items will appear here -->
+          <div class="task-item">
+            <span>Sample Task</span>
+            <button class="delete-btn">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
